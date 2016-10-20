@@ -1,0 +1,9 @@
+{
+  "name": "IQ180",
+  "version": "0.0.1",
+  "description": "netcentric project",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.5.0"
+  }
+}
