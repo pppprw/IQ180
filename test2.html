@@ -11,6 +11,15 @@
             text-align: center;
             font-size: 80px;
         }
+
+        #play{
+            background-image: url("4T9od4dqc.png");
+            background-size: 100px 100px;
+            background-repeat: no-repeat;
+            width: 100px;
+            height: 100px;
+
+        }
     </style>
     <style type="text/css">
         body, html {height: 100%}
@@ -18,7 +27,7 @@
             background-image : url('cb70161a4d89947f93a606f8b6ba7026.gif');
             background-attachment : fixed;
             background-repeat: no-repeat;
-            background-color: #51affa;
+            background-color: moccasin;
             min-height: 100%;
             background-position: center;
             background-size: cover;
@@ -27,9 +36,18 @@
 <body>
     <header class="w3-container w3-padding-32 w3-center w3-opacity w3-margin-bottom">
         <h1>Welcome</h1>
-        <h2>Mode</h2>
-    </header>
+        <h2>MODE</h2>
+        <div>
+            <a href="javascript:void(0)" class="w3-btn w3-btn-block w3-hover-blue-grey w3-padding-16">Single Player</a>
+            <a href="javascript:void(0)" class="w3-btn w3-btn-block w3-hover-teal w3-padding-16">Multi Player</a>
+            <a href="javascript:void(0)" class="w3-btn w3-btn-block w3-hover-light-blue w3-padding-16">Challenging</a>
+        </div>
+        <form action="page3.html">
+            <button type="submit"><div id="play"></div></button>
 
+        </form>
+
+    </header>
 
 </body>
 <script src="players.js"></script>
