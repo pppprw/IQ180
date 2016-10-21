@@ -4,6 +4,7 @@
 function hi(){
     window.alert("Hellooo");
 }
+
 function anyeong(){
     document.getElementById("nn").innerHTML = document.getElementById("name");
 }
